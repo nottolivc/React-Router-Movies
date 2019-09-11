@@ -36,7 +36,7 @@ body {
   justify-content: space-between;
 }
 
-.saved-list h3 {
+.saved-list h2 {
   margin-right: 10px;
 }
 
@@ -44,14 +44,15 @@ body {
   margin: 0 10px;
 }
 .saved-active {
-  color: blue;
-  border: 1px solid grey;
+  color: darkblue;
+  border: 2px solid grey;
   padding: 5px;
 }
 .save-wrapper {
   position: relative;
   width: 75%;
   margin: 1rem auto;
+  border-radius: 8px;
 }
 .save-button {
   position: absolute;
@@ -60,9 +61,10 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  border-radius: 8px;
 }
 .save-button:hover {
-  background-color: green;
+  background-color: silver;
   color: white;
 }
 
